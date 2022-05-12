@@ -11,7 +11,6 @@ module.exports = {
     },
     extend: {},
   },
-  plugins: [
-  ],
+  plugins: [require("daisyui")],
   purge: ['./src/**/*.{js,md,njk,svg}'],
 }
