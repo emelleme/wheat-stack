@@ -1,0 +1,74 @@
+---
+title: 'Home'
+---
+
+{% extends "_includes/layout.twig" %}
+
+{% block body %}
+<main class="container py-16">
+  <div class="prose max-w-none">
+    <h1>Welcome to the WHEAT Stack!</h1>
+    <p>The WHEAT stack is a powerful combination of tools for quickly spinning up web apps on Cloudflare Pages. It brings together the best of the TEA stack with additional features and optimizations.</p>
+    
+    <h2>What does WHEAT stand for?</h2>
+    <ul>
+      <li><strong>W</strong>rangler - Cloudflare Workers CLI</li>
+      <li><strong>H</strong>TMX - High power tools for HTML</li>
+      <li><strong>E</strong>leventy - Static site generator</li>
+      <li><strong>A</strong>lpine.js - Lightweight JavaScript framework</li>
+      <li><strong>T</strong>ailwind CSS - Utility-first CSS framework</li>
+    </ul>
+    
+    <h2>Key Features</h2>
+    <ul>
+      <li>Rapid development with Eleventy and Tailwind CSS</li>
+      <li>Seamless integration with Cloudflare Pages for fast and secure deployment</li>
+      <li>Enhanced interactivity with Alpine.js</li>
+      <li>Powerful HTML tools with HTMX</li>
+      <li>Easy Cloudflare Workers management with Wrangler</li>
+      <li>Pre-configured with DaisyUI for beautiful and customizable UI components</li>
+    </ul>
+    
+    <h2>Getting Started</h2>
+    <ol>
+      <li>Clone the WHEAT stack repository</li>
+      <li>Install dependencies using <code>npm install</code></li>
+      <li>Start the development server with <code>npm run dev</code></li>
+      <li>Build the production-ready site using <code>npm run build</code></li>
+      <li>Deploy to Cloudflare Pages and enjoy the lightning-fast performance!</li>
+    </ol>
+    
+    <p>This page is authored in Twig at <code>src/index.twig</code>. Feel free to customize it to showcase your own content.</p>
+    
+    <p>To learn more about the WHEAT stack and its components, check out the README file in the repository.</p>
+
+    <h2>Cloudflare Pages Functions</h2>
+    <p>The WHEAT stack supports Cloudflare Pages Functions, allowing you to run serverless functions directly from your Cloudflare Pages project. To create and use functions:</p>
+    <ol>
+      <li>Create a new JavaScript file in the <code>functions</code> folder for each function you want to add.</li>
+      <li>Implement your function logic in the respective JavaScript file.</li>
+      <li>Deploy your project to Cloudflare Pages.</li>
+      <li>Access your functions using the generated URLs provided by Cloudflare Pages.</li>
+    </ol>
+    
+    <p>For example, if you create a function file named <code>hello.js</code> in the <code>functions</code> folder, it will be accessible at a URL like <code>https://your-project.pages.dev/hello</code>.</p>
+    
+    <h2>Prebuild Script</h2>
+    <p>The WHEAT stack includes a <code>prebuild.sh</code> file that runs during the Cloudflare Pages build process. This script can be used to perform any necessary setup or preprocessing tasks before the build.</p>
+    
+    <p>To customize the prebuild script:</p>
+    <ol>
+      <li>Open the <code>prebuild.sh</code> file in your project.</li>
+      <li>Add your desired commands or scripts to be executed during the prebuild phase.</li>
+      <li>Save the file and deploy your project to Cloudflare Pages.</li>
+    </ol>
+    
+    <p>The <code>prebuild.sh</code> script will be automatically executed before the build process begins, allowing you to prepare your project environment or perform any necessary setup tasks.</p>
+    
+    <p>This page is authored in Twig at <code>src/index.twig</code>. Feel free to customize it to showcase your own content.</p>
+    
+    <p>To learn more about the WHEAT stack and its components, check out the README file in the repository.</p>
+  </div>
+  </div>
+</main>
+{% endblock %}
