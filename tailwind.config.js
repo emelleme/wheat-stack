@@ -1,8 +1,6 @@
 module.exports = {
   content: ['./src/**/*.{js,md,twig,svg}'],
   plugins: [
-    require('@tailwindcss/forms'),
-    require('@tailwindcss/typography'),
     require('tailwindcss-debug-screens'),
     require('daisyui'),
   ],
