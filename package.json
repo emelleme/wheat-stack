@@ -38,7 +38,7 @@
   "homepage": "https://github.com/emelleme/wheat-stack#readme",
   "dependencies": {
     "alpinejs": "^3.1.0",
-    "daisyui": "^4.7.2"
+    "daisyui": "^4.11.1"
   },
   "devDependencies": {
     "@11ty/eleventy": "^2.0.1",
